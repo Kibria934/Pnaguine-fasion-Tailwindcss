@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- -------------------Tailwind link----------------- -->
+         <script src="https://cdn.tailwindcss.com"></script>
+          <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            color:'#fffbf0',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+        <header>
+          <section class="container px-5 mx-auto sm:flex pb-32 bg-color items-center justify-around  pt-10 sm:pt-28">
+            <div class="space-y-4 ">
+              <h1 class="font-bold uppercase"><span class="  text-2xl sm:text-5xl text-yellow-500 ">Be the Penguins</span> <br> 
+          <span class="text-2xl sm:text-5xl uppercase text-blue-900">of Winter</span></h1>
+              <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio unde esse corrupti quia ab vel. Cum unde aperiam illo.</p>
+              <button class="bg-[#A4BC46] py-3 roun px-8 text-white font-semibold"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>BUY NOW</button>
+            </div>
+            <div>
+              <img class="w-3/4 sm:w-full pt-10 justify-center" src="images/model.png" alt="">
+            </div>
+            </section>
+        </header>
+</body>
+</html>
